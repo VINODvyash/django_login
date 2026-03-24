@@ -1,0 +1,24 @@
+# ═════════════════════════════════════════════════════════════════════════════
+# Production Dependencies - Extends base.txt
+# ═════════════════════════════════════════════════════════════════════════════
+
+-r base.txt
+
+# Production Server
+gunicorn==23.0.0
+whitenoise==6.6.0
+
+# Monitoring & Error Tracking
+sentry-sdk==1.48.0
+
+# Caching
+django-redis==5.4.0
+
+# Security
+django-cors-headers==4.4.0
+
+# Production Database
+psycopg2-binary==2.9.10
+
+# Performance
+django-cachalot==2.6.3

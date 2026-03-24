@@ -1,0 +1,28 @@
+# ═════════════════════════════════════════════════════════════════════════════
+# Development Dependencies - Extends base.txt
+# ═════════════════════════════════════════════════════════════════════════════
+
+-r base.txt
+
+# Testing
+pytest==9.0.2
+pytest-django==4.11.1
+pytest-cov==4.1.0
+factory-boy==3.3.0
+
+# Code Quality
+black==24.10.0
+isort==5.13.2
+flake8==7.0.0
+pylint==3.0.3
+mypy==1.7.0
+
+# Development Tools
+django-extensions==3.2.3
+ipython==8.23.0
+drf-spectacular==0.29.0
+Werkzeug==3.0.1
+
+# Debugging
+django-debug-toolbar==4.2.0
+django-silk==5.1.0
